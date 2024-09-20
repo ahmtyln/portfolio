@@ -27,12 +27,13 @@
 
             .left{
                 flex: 6;
-                height: 100%;
-                background-color: yellowgreen;
+                height: 80%;
+               display: flex;
+               align-items: center;
             }
             .right{
                 flex: 6;
-                background-color: yellow;
+                
             }
         }
     }
