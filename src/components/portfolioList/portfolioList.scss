@@ -7,6 +7,18 @@
     font-weight: 300;
     border-radius: 10px;
     cursor: pointer;
+    
+
+    
+    @include mobile{
+        font-size: 15px;
+        margin: 10px 25px 7px 0px;
+    }
+
+    @include laptop{
+        font-size: 18px;
+        overflow: hidden;
+    }
 
     &.active{
         background-color: $mainColor;
